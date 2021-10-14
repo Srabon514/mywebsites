@@ -1,0 +1,46 @@
+.a{ 
+   text-decoration: none;
+   color: rgb(215, 227, 241);
+   background: rgb(15, 26, 88);
+   display: inline-block;
+   padding: 15px 60px; 
+   margin: 22% 45%;
+   transition: .5s; 
+   font-size: 30px;
+   }
+
+a:hover{background: rgb(127, 166, 224);
+        color: rgb(0, 0, 0);
+
+ }  
+
+.one{ 
+     width: 600px;
+     height: 300px;
+     background: green;
+     margin-top: 103px;
+     position: relative;
+     float: left;
+}
+
+.two{
+     width: 150px;
+     height: 150px;
+     background: red;
+     border-radius: 50%;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+
+.three{
+     width: 15px;
+     height: 700px;
+     background: rgb(43, 42, 41);
+     float: left;
+     margin-top: 74px;
+     margin-left: 630px;
+
+       
+}
