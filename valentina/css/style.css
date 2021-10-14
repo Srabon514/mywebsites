@@ -1,0 +1,915 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+.title h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: #444;
+    font-weight: 700;
+    margin: 0;
+    text-transform: capitalize;
+    
+}
+.title h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+    color: #d50a51;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+/* ================== navbar start ================== */
+nav{
+    background: #fbdfe6;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    overflow: hidden;
+    /* padding-top: 20px;
+    padding-bottom: 22px; */
+
+}
+nav .logo{
+    width: 13%;
+    float: left;
+    
+}
+nav .logo img{
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 19px;
+    margin-left: 20px;
+}
+nav .nav-item{
+    width: 77%;
+    float: left;
+}
+nav .nav-item ul{
+    text-align: center;
+}
+nav .nav-item ul li{
+    display: inline-block;
+    background: transparent;
+    margin: 0% 10px;
+    padding: 30px 10px;
+    transition: .6s;
+    /* margin-top: 10px; */
+} 
+nav .nav-item ul li a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    /* padding: 10px; */
+    
+    color: black;
+    
+    
+    
+}
+nav .nav-item ul li:hover{
+    background: white;
+    
+}
+nav .nav-item ul li a:hover{
+    color: #d50a51;
+    transition: .6s;
+    
+}
+nav .button{
+    width: 10%;
+    float: left;
+}
+nav .button a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    background: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 50px;
+    transition: .9s;
+    margin-top: 17px;
+    
+}
+nav .button a:hover{
+    color: white;
+    background: #d50a51;
+    
+}
+/* ================== navbar end ==================== */
+/* ================== banner start ================== */
+#banner-part{
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 137px;
+    height: 583px;
+
+}
+#banner-part .picture{
+    width: 50%;
+    float: left;
+    
+}
+#banner-part .picture img{
+    margin-top: 15px;
+    text-align: right;
+    padding-left: 19px;
+}
+#banner-part .text{
+    text-align: center;
+}
+#banner-part .text h3{
+    color: #8a5e3b;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: -28px;
+    padding-top: 155px;
+}
+#banner-part .text h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    font-weight: 500;
+    color: #d50a51;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+#banner-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding-bottom: 45px;
+}
+#banner-part .text a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    transition: .9s;
+    margin-top: 17px;
+}
+#banner-part .text a:hover{
+    color: white;
+    background: #d50a51;
+    
+}
+/* ================== banner end ==================== */
+/* ================== history start ================= */
+#history-part{
+    margin-top: 120px;
+}
+#history-part .image{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+#history-part .image img{
+    width: 100%;
+}
+#history-part .text{
+    width: 50%;
+    float: left;
+    
+}
+#history-part .text .title{
+    margin-left: 140px;
+}
+#history-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    width: 535px;
+    margin-left: 100px;
+}
+/* ================== history end =================== */
+/* ================== giftpart start ================ */
+#giftproposal-part{
+    margin-top: 120px;
+    background: #fff6da;
+    padding: 50px 0 0px 0;
+    
+    
+}
+#giftproposal-part .text{
+    width: 55%;
+    float: left;
+    margin-left: 35px;
+}
+#giftproposal-part .text .title{
+    margin-left: 50px;
+}
+#giftproposal-part .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #444;
+    line-height: 26px;
+    width: 634px;
+    /* margin-left: 50px; */
+}
+#giftproposal-part .text a{
+    display: inline-block;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    transition: .9s;
+    margin: 25px 5px;
+
+}
+#giftproposal-part .text a:hover{
+    color: white;
+    background: #d50a51;
+}
+    
+#giftproposal-part .image{
+    width: 40%;
+    float: left;
+    margin-left: 723px;
+    margin-top: -647px;
+    text-align: right;
+    
+}
+#giftproposal-part .image img{
+    /* position: absolute; */
+    top: -110px;
+    right: 0;
+    height: 650px;
+    width: 520px;
+    
+}
+/* ================== giftpart end ================== */
+/* ================== ticketpart start ============== */
+#ticket-part{
+    margin-top: 55px;
+    padding: 50px 0;
+}
+#ticket-part .image{
+    width: 50%;
+    float: left; 
+    /* margin-left: -20px;
+    padding-right: 20px;  */
+}
+#ticket-part .text{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#ticket-part .text .title{
+    margin-right: 65px;
+}
+#ticket-part .text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    width: 563px;
+    margin-left: 88px;
+}
+#ticket-part .text a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    transition: .9s;
+    margin: 25px 5px;
+    
+}
+#ticket-part .text a:hover{
+    color: white;
+    background: #d50a51;
+}
+/* ================== ticketpart end ================ */
+/* ================== offerpart start =============== */
+#offer-part{
+    margin-top: 100px;
+    background: #fef7fa;
+    padding: 55px 0
+    
+    
+}
+#offer-part .offer .text{
+    width: 33%;
+    float: left;
+    margin-left: 90px;
+}
+#offer-part .offer .text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    width: 366px;
+    padding-left: 32px;
+}
+#offer-part .offer .text .title{
+    margin-left: 85px;
+    
+}
+#offer-part .offer .services{
+    width: 60%;
+    float: left;
+    
+}
+#offer-part .offer .services .row1{
+    width: 49%;
+    float: left;
+}
+
+#offer-part .offer .services .row1 .item1{
+    height: 49%;
+    transition: .6s ease;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-right: 3px solid transparent;
+}
+
+#offer-part .offer .services .row1 .item1 span{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+#offer-part .offer .services .row1 .item1 img{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#offer-part .offer .services .row1 .item1 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    width: 290px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+
+#offer-part .offer .services .row1 .item1:hover{
+   background: #f1f1f1;
+   border-right: 3px solid #d50a51;
+   -webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62); 
+box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62);
+transform: scale(1.05);
+}
+#offer-part .offer .services .row1 .item2{
+    height: 49%;
+    transition: .6s ease;
+    padding: 15px;
+    margin-right: 15px;
+    border-right: 3px solid transparent;
+}
+#offer-part .offer .services .row1 .item2 span{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+#offer-part .offer .services .row1 .item2 img{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#offer-part .offer .services .row1 .item2 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    width: 290px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+#offer-part .offer .services .row1 .item2:hover{
+   background: #f1f1f1;
+   border-right: 3px solid #d50a51;
+   -webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62); 
+box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62);
+transform: scale(1.05);
+}
+#offer-part .offer .services .row2{
+    width: 49%;
+    float: left;
+}
+#offer-part .offer .services .row2 .item3{
+    height: 49%;
+    transition: .6s ease;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-right: 3px solid transparent;
+}
+#offer-part .offer .services .row2 .item3 span{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+#offer-part .offer .services .row2 .item3 img{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#offer-part .offer .services .row2 .item3 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    width: 290px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+#offer-part .offer .services .row2 .item3:hover{
+   background: #f1f1f1;
+   border-right: 3px solid #d50a51;
+   -webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62); 
+box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62);
+transform: scale(1.05);
+}
+
+#offer-part .offer .services .row2 .item4{
+    height: 49%;
+    transition: .6s ease;
+    padding: 15px;
+    border-right: 3px solid transparent;
+}
+#offer-part .offer .services .row2 .item4 span{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 5px;
+    margin-left: 20px;
+    color: #d50a51;
+    text-transform: capitalize;
+}
+#offer-part .offer .services .row2 .item4 img{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+#offer-part .offer .services .row2 .item4 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 24px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    width: 290px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+}
+
+#offer-part .offer .services .row2 .item4:hover{
+   background: #f1f1f1;
+   border-right: 3px solid #d50a51;
+   -webkit-box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62); 
+box-shadow: 1px 1px 12px 3px rgba(0,0,0,0.62);
+   transform: scale(1.05);
+}
+/* ================== offerpart end ================= */
+/* ================== capturepart start ============= */
+#capture-part{
+    padding-top: 35px;
+}
+#capture-part .images{
+    width: 65%;
+    float: left;
+    padding: 75px;
+    box-sizing: border-box;   
+}
+#capture-part .images .row{
+    height: 47%;
+    padding: 10px;
+    
+    
+}
+#capture-part .images .row .top{
+    width: 47%;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+#capture-part .images .row .top .main{
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
+#capture-part .images .row .top .main img{
+    width: 100%;
+    
+}
+#capture-part .images .row .top .overlay{
+    width: 100%;
+    height: 99%;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .6s ease;
+    opacity: 1;
+    transform: scale(0);
+}
+#capture-part .images .row .top .overlay .icon{
+    right: 0%;
+    position: absolute;
+}
+#capture-part .images .row .top .overlay .icon a{
+    display: block;
+    margin-right: 20px;
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    transition: .3s;
+    opacity: 1;
+}
+#capture-part .images .row .top .overlay .icon a:hover{
+    border: 1px solid #d50a51;
+    background: #d50a51;
+}
+#capture-part .images .row .top .overlay .text{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    display: inline-block;
+}
+#capture-part .images .row .top .overlay .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+    width: 332px;
+}    
+#capture-part .images .row .top .overlay .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #fff;
+    /* text-align: center; */
+    /* width: 334px; */
+    margin-bottom: 13px;
+    padding-right: 24px;
+}
+#capture-part .images .row .top .overlay .text p span{
+    margin-left: 12px;
+    margin-right: 2px;
+}
+#capture-part .images .row .top:hover .overlay{
+    transform: scale(1);
+    
+}
+#capture-part .info{
+    width: 35%;
+    float: left;
+    text-align: right;
+    
+}
+#capture-part .info .title{
+    text-align: right;
+    margin-top: 100px;
+    margin-right: 68px;
+}
+#capture-part .info p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    line-height: 26px;
+    width: 357px;
+    text-align: right;
+    margin-left: 100px;
+}
+#capture-part .info a{
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 25px;
+    background: transparent;
+    color: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 25px;
+    transition: .9s;
+    margin: 25px 5px;
+       
+}
+#capture-part .info a:hover{
+    color: white;
+    background: #d50a51;
+}
+/* ================== capturepart end =============== */
+/* ================== timerpart start =============== */
+#timer-part{
+    background: url(../images/counter-bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 250px;
+}
+#timer-part .timer .time{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#timer-part .timer .time img{
+    max-width: 100%;
+    height: auto;
+    /* margin-left: 100px; */
+    margin-top: 15px;
+}
+#timer-part .timer .time h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #d50a51;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+#timer-part .timer .time h3{
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 32px;
+    color: #444;
+    font-weight: 500;
+}
+/* ================== timerepart end ================ */
+/* ================== feedbackpart start ============ */
+#feedback-part{
+    padding-top: 100px;
+
+}
+/* #feedback-part .row{
+    position: relative;
+}
+#feedback-part .row .image1{
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+#feedback-part .row .image2{
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+#feedback-part .row .image1 img{
+    /* margin-left: 10px; */
+    margin-bottom: -27px;
+}
+#feedback-part .row .image2 img{
+    margin-left: 1269px;
+    margin-top: -22px;
+}
+#feedback-part .row .feedback{
+    /* width: 46.5%; */
+    float: left;
+    background: #fffae2;
+    margin-left: 42px;
+    /* margin-top: -27px; */
+    /* position: relative */
+    cursor: pointer;
+    transition: .6s ease;
+}
+#feedback-part .prev{
+    height: 50px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    position: absolute;
+    top: 50%;
+    left: -144px;
+    transform:translateY(-50%);
+    transition: .6s;
+    cursor: pointer;
+    
+}
+#feedback-part .prev:hover{
+    background: #d50a51;
+    color: white;
+}
+#feedback-part .next{
+    height: 50px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    position: absolute;
+    top: 50%;
+    right: -144px;
+    transform:translateY(-50%);
+    transition: .6s;
+    cursor: pointer;
+}
+#feedback-part .next:hover{
+    background: #d50a51;
+    color: white;
+}
+
+/* #feedback-part .row .feedback:hover{
+    -webkit-box-shadow: 12px 12px 23px -8px rgba(0,0,0,0.74); 
+box-shadow: 12px 12px 23px -8px rgba(0,0,0,0.74);
+     transform: scale(1.05);
+} */
+#feedback-part .row .feedback p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444;
+    line-height: 26px;
+    padding: 20px;
+    
+}
+#feedback-part .row .feedback ul li{
+    float: left;
+    padding-right: 20px;
+}
+#feedback-part .row .feedback ul li img{
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+#feedback-part .row .feedback ul li .clientinfo{
+    margin-top: 30px;
+}
+#feedback-part .row .feedback ul li .clientinfo h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+#feedback-part .row .feedback ul li .clientinfo h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+    text-transform: capitalize;
+}
+/* ================== feedbackpart end ============== */
+/* ================== footer-part end =============== */
+#footer{
+    padding-top: 100px;
+}
+#footer .footerbg{
+    background: url(../images/footer-bg.jpg)  center no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+#footer .footerbg .row1{
+    padding-bottom: 40px;
+    text-align: center;
+}
+#footer .footerbg .row2{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+#footer .footerbg .row2 .footeritem{
+    max-width: 33.333333%;
+    float: left;
+    margin: 10px 94px
+    
+}
+#footer .footerbg .row2 .footeritem ul li{
+    float: left;
+}
+#footer .footerbg .row2 .footeritem ul li i{
+    width: 49px;
+    height: 49px;
+    background: #d50a51;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 49px;
+    color: #fff;
+    font-size: 24px;
+    transition: .4s;
+}
+#footer .footerbg .row2 .footeritem ul li i:hover{
+    background: transparent;
+    color: #d50a51;
+}
+#footer .footerbg .row2 .footeritem ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #444;
+    text-decoration: none;
+    margin-left: 20px;
+    line-height: 26px;
+}
+#footer .footerbg .row3 .follow{
+    text-align: center;
+}
+#footer .footerbg .row3 .follow h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #d50a51;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 120px;
+}
+#footer .footerbg .row3 .follow i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d50a51;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #d50a51;
+    font-size: 20px;
+    margin-right: 10px;
+    transition: all linear .3s;
+}
+#footer .footerbg .row3 .follow i:hover{
+    background: #d50a51;
+    color: #fff;
+}
+/* ================== footer-part end =============== */
+/* ================== copy-part end ================= */
+#copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #fffae2;
+}
+#copyright .details{
+    text-align: center;
+}
+#copyright .details p{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+#copyright .details p span{
+    color: #d50a51;
+}
+/* ================== copy-part end ================= */
