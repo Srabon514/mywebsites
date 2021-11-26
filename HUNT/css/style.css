@@ -107,7 +107,7 @@ nav ul li .active:after{
 #banner-part .overlay h2{
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    font-weight: 400px;
+    font-weight: 400;
     color: white;
 }
 #banner-part .overlay h1{
@@ -482,7 +482,7 @@ nav ul li .active:after{
     height: 837px;
     background: url(../images/line.png);
     position: absolute;
-    top: 83px;
+    top: 236px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -606,6 +606,485 @@ nav ul li .active:after{
     transform: translate(-50%,-50%) rotate(45deg);
 }
 /* ==============service-part end=============== */
-/* ==============review-part start=============== */
+/* ==============testi-part start=============== */
 
-/* ==============review-part end=============== */
+#testi-part{
+    margin-top: 100px;
+    background: url(../images/testibg.png) no-repeat center;
+    clip-path: polygon(0 19%, 100% 0%, 100% 80%, 0% 100%);
+}
+#testi-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.801);
+    padding:100px 0;
+}
+#testi-part .white-line{
+    position: relative;
+}
+#testi-part .line{
+    width: 1px;
+    height: 472px;
+    background: url(../images/line2.png);
+    position: absolute;
+    top: 91px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#testi-part .testi-slider{
+    margin-top: 129px;
+    margin-bottom: 59px;
+}
+#testi-part .overlay .round{
+    width: 100px;
+    height: 100px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    margin: 15px auto;
+    overflow: hidden;
+    position: relative;
+    transition: .6s;
+}
+#testi-part .overlay .round .img-overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255,.6);
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: .6s;
+}
+#testi-part .overlay .slick-center .round{
+    background: #fec600;
+    transform: scale(1.2);
+}
+#testi-part .overlay .slick-center .round .img-overlay{
+    opacity: 0;
+}
+
+#testi-part .up{
+	height: 50px;
+	font-size: 25px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	position: absolute;
+	top: -86px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: .6s;
+	cursor: pointer;
+	z-index: 1;
+}
+#testi-part .down{
+	height: 50px;
+	font-size: 25px;
+	width: 50px;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	position: absolute;
+	bottom: -88px;
+	left: 50%;
+	transform: translatex(-50%);
+	transition: .6s;
+	cursor: pointer;
+	z-index: 1;
+    transition: .6s;
+}
+#testi-part .up:hover{
+    border: 1px solid #fec600;
+    color: black;
+    background: #fec600;
+}
+#testi-part .down:hover{
+    border: 1px solid #fec600;
+    color: black;
+    background: #fec600;
+}
+#testi-part .bg{
+    background: #faf6e6;
+    padding: 60px 30px;
+    margin-top: 160px;
+    width: 834px;
+    height: 341px;
+    margin-left: 60px;
+    position: relative;
+}
+#testi-part .bg .shape{
+    height: 55px;
+    width: 55px;
+    border-radius: 17px;
+    background: #faf6e6;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+#testi-part .bg h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: -3px;
+}
+#testi-part .bg .star i{
+    color: #fec600;
+}
+#testi-part .bg h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;  
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+#testi-part .bg p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;  
+}
+#testi-part .bg .image{
+    margin-left: 613px;
+    margin-top: 38px;
+}
+/* ==============testi-part end=============== */
+/* ==============pricing-part start=============== */
+#pricing-part{
+    margin-top: 100px;
+}
+#pricing-part .item{
+    background: #f1f1f1;
+    transition: .6s;
+}
+#pricing-part .item:hover{
+    -webkit-box-shadow: 0px 0px 15px -4px #000000; 
+    box-shadow: 0px 0px 15px -4px #000000;
+}
+#pricing-part .item h3{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 95px;
+    background: #444444;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+    transition: .6s;
+}
+#pricing-part .item:hover h3{
+    background: #fec600;
+    color: black;
+}
+#pricing-part .item .list{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+}
+#pricing-part .item .list ul{
+    text-align: center;
+    padding-left: 0;
+}
+#pricing-part .item .list ul li{
+    margin: 15px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#pricing-part .item .list .circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #444444;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-79%);
+    transition: .6s;
+}
+#pricing-part .item:hover .list .circle{
+    border:1px solid #fec600;
+}
+#pricing-part .item .list .circle .inner-circle{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: #444444;
+    text-align: center;
+    transition: .6s;
+}
+#pricing-part .item:hover .list .circle .inner-circle{
+    background: #fec600;
+    color: black;
+}
+#pricing-part .item .list .circle .inner-circle h4{
+    margin-top: 18px;
+    margin-bottom: -7px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 29px;
+    transition: .6s;
+}
+#pricing-part .item:hover .list .circle .inner-circle h4{
+    color: black;
+}
+#pricing-part .item .list .circle .inner-circle span{
+    color: white;
+    margin-bottom: -5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    transition: .6s;
+}
+#pricing-part .item:hover .list .circle .inner-circle span{
+    color: black;
+}
+#pricing-part .item p{
+    color: white;
+    padding-bottom: 25px;
+    padding-top: 43px;
+    background: #444444;
+    text-align: center;
+    clip-path: polygon(0 47%, 100% 0, 100% 100%, 0% 100%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: .6s;
+}
+#pricing-part .item:hover p{
+    background: #fec600;
+    color: black;
+}
+/* ==============pricing-part end=============== */
+/* ==============counter-part start=============== */
+#counter-part{
+    background: url(../images/counter-bg.png) no-repeat top;
+    background-size: cover;
+    margin-top: 100px;
+    clip-path: polygon(0 26%, 100% 0, 100% 78%, 0% 100%);
+}
+#counter-part .angle{
+    transform: rotate(-2deg);
+}
+#counter-part .overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.76);
+    padding: 65px 0;   
+}
+#counter-part .overlay .item{
+    padding: 20px 0;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+#counter-part .overlay .item h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+#counter-part .overlay .item p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* ==============counter-part end=============== */
+/* ==============member-part start=============== */
+
+#team-part{
+    margin-top: 100px;
+    height: 558px;
+}
+#team-part .member{
+    border: 1px solid #cacaca;
+}
+#team-part .member .image{
+    height: 270px;
+    background: #f1f1f1;
+    overflow: hidden;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+    position: relative;
+}
+#team-part .member .image img{
+    margin-top: 10px;
+}
+#team-part .member .image .overlay{
+    height: 0%;
+    width: 100%;
+    background: #fec7008f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .6s;
+}
+#team-part .member:hover .image .overlay{
+    height: 100%;
+    opacity: 1;
+}
+
+#team-part .member .image .overlay i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: black;
+    background: white;
+}
+#team-part .member .text{
+    text-align: center;
+}
+#team-part .member .text h2{
+    margin-top: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#team-part .member .text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#team-part .member .text .icon{
+    margin-top: -44px;
+    opacity: 0;
+    transition: .6s;
+}
+
+#team-part .member:hover .text .icon{
+    margin-top: 0px;
+    opacity: 1;
+}
+#team-part .member .text .icon i{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    color: rgb(41, 41, 41);
+    border: 1px solid rgb(41, 41, 41);
+    margin: 0 10px;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+#team-part .member .text .icon i:hover{
+    background: #fec600;
+    border: 1px solid #fec600;
+
+}
+/* ==============member-part end=============== */
+/* ==============sponsor-part end=============== */
+#sponsor-part{
+    margin-top: 100px;
+    background: #f1f1f1;
+    padding: 62px 0;
+    clip-path: polygon(0 26%, 100% 0, 100% 78%, 0% 100%);
+}
+#sponsor-part .angle{
+    transform: rotate(-2deg);
+}
+#sponsor-part .item{
+    border: 1px solid #9c9c9c;
+    margin: 0 15px;
+}
+#sponsor-part .slick-center{
+    border: 1px solid #fec600;
+}
+#sponsor-part .item .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15px;
+}
+/* ==============sponsor-part end=============== */
+/* ==============logo-part start=============== */
+#logo-part{
+    margin-top: -52px;
+    background: #222222;
+    clip-path: polygon(0 32%, 100% 0, 100% 68%, 0% 100%);
+    z-index: -1;
+    position: relative;
+    padding: 68px 0;
+}
+#logo-part .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ==============logo-part end=============== */
+/* ==============footer-part start=============== */
+footer{
+    background: #222222;
+    margin-top: -61px;
+    text-align: center;
+}
+footer .item{
+    text-align: center;
+    border-right: 1px solid #555555; 
+    margin-top: 72px;
+    padding: 0 21px;
+}
+footer .lastitem{
+    border-right: 0px;
+}
+footer .item i{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    color: #222222;
+    background: #fec600;
+    margin-bottom: 20px;
+}
+footer .item p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 250;
+    margin: 0 auto;
+   
+}
+footer h2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+footer .icons i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    background: white;
+    margin: 30px 20px;
+    transition: .6s;
+}
+footer .icons i:hover{
+    background: #fec600;
+}
+footer h5{
+    background: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 0;
+}
+footer h5 span{
+    color: #fec600;
+}
+/* ==============footer-part end=============== */
