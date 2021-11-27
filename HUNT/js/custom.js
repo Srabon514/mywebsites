@@ -31,10 +31,11 @@ $(".service-slider").slick({
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 767,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            vertical:false,
           }
         },
         {
@@ -72,10 +73,11 @@ $(".testi-slider").slick({
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 767,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            vertical:false,
           }
         },
         {
@@ -123,10 +125,10 @@ $(".sponsor-slider").slick({
           }
         },
         {
-          breakpoint: 600,
+          breakpoint: 767,
           settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
+            slidesToShow: 1,
+            slidesToScroll: 1
           }
         },
         {
