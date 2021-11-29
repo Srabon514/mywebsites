@@ -22,12 +22,12 @@ $(".service-slider").slick({
     nextArrow:'<i class="fas fa-chevron-down down"></i>',
     responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 992,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
@@ -64,12 +64,12 @@ $(".testi-slider").slick({
     asNavFor:".text-slider",
     responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 992,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
+            slidesToScroll: 1,
+            vertical:false,
+            dots: false
           }
         },
         {
@@ -115,13 +115,22 @@ $(".sponsor-slider").slick({
     centerMode: true,
     centerPadding: "0",
     responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: false
+        }
+      },
         {
-          breakpoint: 1024,
+          breakpoint: 992,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
           }
         },
         {
